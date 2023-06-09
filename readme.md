@@ -8,7 +8,7 @@
 
 
 ## 1. 初识Golang
-### 1.1 语法注意事项
+### 1.1 语法注意事项，例子：First.go
 * 源文件以"go"为拓展名
 * 程序执行入口为main()函数
 * 严格区分大小写
@@ -42,7 +42,7 @@
 * var可以省略 name := value
 * 支持多变量同时生命
 
-### 2.2 数据类型
+### 2.2 数据类型，例子：Variable.go
 * 基本数据类型
   - 数值型（整数类型int、int8、int16、int32、int64、uint、uint8、uint16、uint32、uint64、byte，浮点类型float32、float64）
   - 字符类型（没有单独的字符型，使用byte保存单个字符字符）
@@ -58,7 +58,7 @@
   - 接口
   - Map
 
-### 2.3 整数类型（默认int，尽量定义范围符合的）
+### 2.3 整数类型（默认int，尽量定义范围符合的），例子：Integer.go
 * 有符号整数类型（int8、int16、int32、int64），相当于Java的byte、shot、int、long
  - 补充说明01111111转十进制就是127
 * 无符号整数类型（uint8、uint16、uint32、uint64），只能表示正数
